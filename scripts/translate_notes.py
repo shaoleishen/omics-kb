@@ -17,6 +17,11 @@ TRANSLATIONS = {
     "# ⚡ Perturbation": "# ⚡ Perturbation Analysis",
     "本分类下收录了": "This category contains",
     "个工具与高影响力代码分析流程：": "tools and high-impact analysis pipelines:",
+    "| 工具/项目 | 核心分析技术栈 | 支持功能模块 | 样本与研究概述 | 官方仓库 |":
+        "| Tool / Project | Tech Stack | Analysis Modules | Study & Sample Summary | Repository |",
+    "暂无详细项目介绍。": "No detailed project summary available.",
+    "常规分析": "General Analysis",
+    "未指定": "Not specified",
 
     # MOC Navigation Headers
     "# 🧬 高影响力多组学应用代码 Obsidian 知识库": "# 🧬 High-Impact Omics Code Knowledge Base",

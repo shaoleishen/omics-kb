@@ -190,6 +190,78 @@ def convert_moc(src_path: Path, dest_rel: str) -> None:
     dest_path.write_text(output, encoding="utf-8")
 
 
+def extract_note_metadata(src_path: Path) -> dict:
+    """Helper to extract study summary, tech stack, and module tags for portal index table."""
+    content = src_path.read_text(encoding="utf-8")
+    
+    # 1. Parse Frontmatter
+    fm = {}
+    if content.startswith("---"):
+        parts = content.split("---", 2)
+        if len(parts) >= 3:
+            try:
+                fm = yaml.safe_load(parts[1])
+            except:
+                pass
+                
+    # 2. Extract study intro summary (first 2 sentences of ## 📝 简介)
+    intro = ""
+    m = re.search(r"## 📝 (?:简介|Overview)\n(.*?)(?=\n##|\n---|$)", content, re.DOTALL)
+    if m:
+        para = m.group(1).strip()
+        # Strip HTML tags, markdown images and links
+        para = re.sub(r"<[^>]+>", "", para)
+        para = re.sub(r"!\[.*?\]\(.*?\)", "", para)
+        para = re.sub(r"\[(.*?)\]\(.*?\)", r"\1", para)
+        para = para.replace(">", "").replace("\n", " ").strip()
+        
+        # Split into sentences
+        sentences = re.split(r"(?<=[.。])\s*", para)
+        intro = " ".join(sentences[:2]).strip()
+        if len(intro) > 220:
+            intro = intro[:217] + "..."
+            
+    if not intro:
+        intro = "暂无详细项目介绍。"
+
+    # 3. Assemble specific analysis pipeline (e.g. R: Seurat + ggplot2)
+    lang = fm.get("language", [])
+    pkgs = fm.get("packages", [])
+    viz = fm.get("visualizations", [])
+    
+    pipelines = []
+    if "R" in lang:
+        r_pkgs = [p for p in pkgs if p in ["Seurat", "SingleCellExperiment", "scran", "scRepertoire"]]
+        r_viz = [v for v in viz if v in ["ggplot2", "ggpubr"]]
+        pkg_str = " + ".join(r_pkgs) if r_pkgs else "Base R"
+        viz_str = f" + {r_viz[0]}" if r_viz else ""
+        pipelines.append(f"R: {pkg_str}{viz_str}")
+        
+    if "Python" in lang:
+        py_pkgs = [p for p in pkgs if p in ["Scanpy", "AnnData", "scvi-tools", "scvi", "pertpy", "squidpy", "spatialdata"]]
+        py_viz = [v for v in viz if v in ["matplotlib", "seaborn", "plotly"]]
+        pkg_str = " + ".join(py_pkgs) if py_pkgs else "Python"
+        viz_str = f" + {py_viz[0]}" if py_viz else ""
+        pipelines.append(f"Python: {pkg_str}{viz_str}")
+        
+    if not pipelines:
+        if lang:
+            pipelines.append(", ".join(lang))
+        else:
+            pipelines.append("未指定")
+
+    # 4. Form modules badges
+    modules = fm.get("modules", [])
+    
+    return {
+        "name": fm.get("name", src_path.stem),
+        "pipeline": " | ".join(pipelines),
+        "modules": ", ".join(modules) if modules else "常规分析",
+        "intro": intro,
+        "github_url": fm.get("github_url", "")
+    }
+
+
 def main():
     print("🔄 Converting Obsidian KB → VitePress zh/ ...")
 
@@ -213,14 +285,14 @@ def main():
             continue
 
         print(f"📂 Processing {obs_folder} ...")
-        notes = []
+        notes_metadata = []
         for md_file in sorted(src_dir.glob("*.md")):
             convert_note(md_file, dest_dir, obs_folder)
             
-            # Record for index page
-            notes.append(md_file.stem)
+            # Extract rich metadata for table
+            notes_metadata.append(extract_note_metadata(md_file))
             
-        # Generate category portal index.md
+        # Generate category portal index.md with detailed metadata table
         cat_title = obs_folder.replace("_", " ")
         cat_emojis = {
             "Single_Cell_RNA_seq": "💻",
@@ -231,14 +303,23 @@ def main():
         emoji = cat_emojis.get(obs_folder, "📂")
         
         index_content = f"# {emoji} {cat_title}\n\n"
-        index_content += f"本分类下收录了 {len(notes)} 个工具与高影响力代码分析流程：\n\n"
-        index_content += "<div v-pre>\n\n"
-        for note in notes:
-            index_content += f"- [{note}](./{note.lower()}.md)\n"
-        index_content += "\n</div>\n"
+        index_content += f"本分类下收录了 {len(notes_metadata)} 个工具与高影响力代码分析流程：\n\n"
         
+        # Draw detailed table
+        index_content += "| 工具/项目 | 核心分析技术栈 | 支持功能模块 | 样本与研究概述 | 官方仓库 |\n"
+        index_content += "| :--- | :--- | :--- | :--- | :--- |\n"
+        
+        for meta in notes_metadata:
+            github_link = f"[GitHub]({meta['github_url']})" if meta['github_url'] else "无"
+            name_link = f"[{meta['name']}](./{meta['name'].lower()}.md)"
+            
+            # Clean summary to prevent breaking markdown table structure (escape '|')
+            clean_intro = meta['intro'].replace("|", "\\|")
+            
+            index_content += f"| {name_link} | `{meta['pipeline']}` | {meta['modules']} | {clean_intro} | {github_link} |\n"
+            
         (dest_dir / "index.md").write_text(index_content, encoding="utf-8")
-        print(f"  ✨ Generated category portal: {vp_folder}/index.md")
+        print(f"  ✨ Generated category portal table: {vp_folder}/index.md")
 
     # 2. Convert MOC pages
     print("📑 Processing MOC pages...")
