@@ -213,8 +213,32 @@ def main():
             continue
 
         print(f"📂 Processing {obs_folder} ...")
+        notes = []
         for md_file in sorted(src_dir.glob("*.md")):
             convert_note(md_file, dest_dir, obs_folder)
+            
+            # Record for index page
+            notes.append(md_file.stem)
+            
+        # Generate category portal index.md
+        cat_title = obs_folder.replace("_", " ")
+        cat_emojis = {
+            "Single_Cell_RNA_seq": "💻",
+            "Multi_omics": "🧬",
+            "Spatial_Omics": "🗺️",
+            "Perturbation": "⚡"
+        }
+        emoji = cat_emojis.get(obs_folder, "📂")
+        
+        index_content = f"# {emoji} {cat_title}\n\n"
+        index_content += f"本分类下收录了 {len(notes)} 个工具与高影响力代码分析流程：\n\n"
+        index_content += "<div v-pre>\n\n"
+        for note in notes:
+            index_content += f"- [{note}](./{note.lower()}.md)\n"
+        index_content += "\n</div>\n"
+        
+        (dest_dir / "index.md").write_text(index_content, encoding="utf-8")
+        print(f"  ✨ Generated category portal: {vp_folder}/index.md")
 
     # 2. Convert MOC pages
     print("📑 Processing MOC pages...")

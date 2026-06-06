@@ -74,7 +74,7 @@ Welcome to the Multi-omics Code Knowledge Base. This repository indexes and anal
 - [stack](../multi-omics/stack.md)
 - [UCE](../multi-omics/uce.md)
 
-### ⚡ Perturbation Analysis
+### ⚡ Perturbation Analysis Analysis
 - [CellFlow](../perturbation/cellflow.md)
 - [cellot](../perturbation/cellot.md)
 - [cpa](../perturbation/cpa.md)

@@ -10,6 +10,14 @@ EN_ROOT = Path("/mnt/d/scRNA/code/omics-kb/docs/en")
 
 # Field/heading translation mapping
 TRANSLATIONS = {
+    # Category index portals
+    "# 💻 Single Cell RNA seq": "# 💻 Single-cell RNA-seq",
+    "# 🧬 Multi omics": "# 🧬 Multi-omics Integration",
+    "# 🗺️ Spatial Omics": "# 🗺️ Spatial Omics",
+    "# ⚡ Perturbation": "# ⚡ Perturbation Analysis",
+    "本分类下收录了": "This category contains",
+    "个工具与高影响力代码分析流程：": "tools and high-impact analysis pipelines:",
+
     # MOC Navigation Headers
     "# 🧬 高影响力多组学应用代码 Obsidian 知识库": "# 🧬 High-Impact Omics Code Knowledge Base",
     "## 📂 组学分类入口 (Primary Folders)": "## 📂 Omics Categories",
