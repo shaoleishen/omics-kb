@@ -1,0 +1,692 @@
+{
+  "zh": {
+    "/zh/single-cell-rna-seq/": [
+      {
+        "text": "💻 单细胞 RNA-seq",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "admultiregion_analysis",
+            "link": "/zh/single-cell-rna-seq/admultiregion_analysis"
+          },
+          {
+            "text": "banovichlab",
+            "link": "/zh/single-cell-rna-seq/banovichlab"
+          },
+          {
+            "text": "brainchromatin",
+            "link": "/zh/single-cell-rna-seq/brainchromatin"
+          },
+          {
+            "text": "CIMA",
+            "link": "/zh/single-cell-rna-seq/cima"
+          },
+          {
+            "text": "covid_balf",
+            "link": "/zh/single-cell-rna-seq/covid_balf"
+          },
+          {
+            "text": "Cross-species-PFC-snRNA-seq",
+            "link": "/zh/single-cell-rna-seq/cross-species-pfc-snrna-seq"
+          },
+          {
+            "text": "DG_paper_public",
+            "link": "/zh/single-cell-rna-seq/dg_paper_public"
+          },
+          {
+            "text": "fda_scRNA-seq",
+            "link": "/zh/single-cell-rna-seq/fda_scrna-seq"
+          },
+          {
+            "text": "harmony",
+            "link": "/zh/single-cell-rna-seq/harmony"
+          },
+          {
+            "text": "HCA_Heart_ver2",
+            "link": "/zh/single-cell-rna-seq/hca_heart_ver2"
+          },
+          {
+            "text": "HCA_skin",
+            "link": "/zh/single-cell-rna-seq/hca_skin"
+          },
+          {
+            "text": "HLCA",
+            "link": "/zh/single-cell-rna-seq/hlca"
+          },
+          {
+            "text": "ipynb-lamanno2016",
+            "link": "/zh/single-cell-rna-seq/ipynb-lamanno2016"
+          },
+          {
+            "text": "neurogenic_astros",
+            "link": "/zh/single-cell-rna-seq/neurogenic_astros"
+          },
+          {
+            "text": "organoid_regulomes",
+            "link": "/zh/single-cell-rna-seq/organoid_regulomes"
+          },
+          {
+            "text": "PCLS_perturbations",
+            "link": "/zh/single-cell-rna-seq/pcls_perturbations"
+          },
+          {
+            "text": "pfc_development",
+            "link": "/zh/single-cell-rna-seq/pfc_development"
+          },
+          {
+            "text": "planarian_lineages",
+            "link": "/zh/single-cell-rna-seq/planarian_lineages"
+          },
+          {
+            "text": "ProgressiveHematopoiesis",
+            "link": "/zh/single-cell-rna-seq/progressivehematopoiesis"
+          },
+          {
+            "text": "scRepertoire",
+            "link": "/zh/single-cell-rna-seq/screpertoire"
+          },
+          {
+            "text": "Single-cell-sequencing-of-subpallium",
+            "link": "/zh/single-cell-rna-seq/single-cell-sequencing-of-subpallium"
+          },
+          {
+            "text": "Single-cell-transcriptomics-reveals-a-signaling-roadmap-coordinating-endoderm-and-mesoderm-lineage",
+            "link": "/zh/single-cell-rna-seq/single-cell-transcriptomics-reveals-a-signaling-roadmap-coordinating-endoderm-and-mesoderm-lineage"
+          },
+          {
+            "text": "snATACutils",
+            "link": "/zh/single-cell-rna-seq/snatacutils"
+          },
+          {
+            "text": "ssread",
+            "link": "/zh/single-cell-rna-seq/ssread"
+          },
+          {
+            "text": "tabula-muris-senis",
+            "link": "/zh/single-cell-rna-seq/tabula-muris-senis"
+          },
+          {
+            "text": "tabula-sapiens",
+            "link": "/zh/single-cell-rna-seq/tabula-sapiens"
+          },
+          {
+            "text": "Tumor-Immune-Cell-Atlas",
+            "link": "/zh/single-cell-rna-seq/tumor-immune-cell-atlas"
+          },
+          {
+            "text": "visium_heart",
+            "link": "/zh/single-cell-rna-seq/visium_heart"
+          }
+        ]
+      }
+    ],
+    "/zh/multi-omics/": [
+      {
+        "text": "🧬 多组学整合",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "awesome-foundation-model-single-cell-papers",
+            "link": "/zh/multi-omics/awesome-foundation-model-single-cell-papers"
+          },
+          {
+            "text": "awesome-single-cell-foundation",
+            "link": "/zh/multi-omics/awesome-single-cell-foundation"
+          },
+          {
+            "text": "EMOGI",
+            "link": "/zh/multi-omics/emogi"
+          },
+          {
+            "text": "EpiAgent",
+            "link": "/zh/multi-omics/epiagent"
+          },
+          {
+            "text": "GaussTR",
+            "link": "/zh/multi-omics/gausstr"
+          },
+          {
+            "text": "HuMMuS",
+            "link": "/zh/multi-omics/hummus"
+          },
+          {
+            "text": "KRONOS",
+            "link": "/zh/multi-omics/kronos"
+          },
+          {
+            "text": "midas",
+            "link": "/zh/multi-omics/midas"
+          },
+          {
+            "text": "MOFA2",
+            "link": "/zh/multi-omics/mofa2"
+          },
+          {
+            "text": "MOVE",
+            "link": "/zh/multi-omics/move"
+          },
+          {
+            "text": "MOVICS",
+            "link": "/zh/multi-omics/movics"
+          },
+          {
+            "text": "Mowgli",
+            "link": "/zh/multi-omics/mowgli"
+          },
+          {
+            "text": "MultiMAP",
+            "link": "/zh/multi-omics/multimap"
+          },
+          {
+            "text": "nicheformer",
+            "link": "/zh/multi-omics/nicheformer"
+          },
+          {
+            "text": "omicverse",
+            "link": "/zh/multi-omics/omicverse"
+          },
+          {
+            "text": "sc-foundation-eval",
+            "link": "/zh/multi-omics/sc-foundation-eval"
+          },
+          {
+            "text": "scAI",
+            "link": "/zh/multi-omics/scai"
+          },
+          {
+            "text": "scib",
+            "link": "/zh/multi-omics/scib"
+          },
+          {
+            "text": "scPRINT",
+            "link": "/zh/multi-omics/scprint"
+          },
+          {
+            "text": "SenseNova-SI",
+            "link": "/zh/multi-omics/sensenova-si"
+          },
+          {
+            "text": "SpatialGlue",
+            "link": "/zh/multi-omics/spatialglue"
+          },
+          {
+            "text": "stack",
+            "link": "/zh/multi-omics/stack"
+          },
+          {
+            "text": "UCE",
+            "link": "/zh/multi-omics/uce"
+          }
+        ]
+      }
+    ],
+    "/zh/spatial-omics/": [
+      {
+        "text": "🗺️ 空间组学",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "cell2location",
+            "link": "/zh/spatial-omics/cell2location"
+          },
+          {
+            "text": "HEST",
+            "link": "/zh/spatial-omics/hest"
+          },
+          {
+            "text": "novae",
+            "link": "/zh/spatial-omics/novae"
+          },
+          {
+            "text": "paste",
+            "link": "/zh/spatial-omics/paste"
+          },
+          {
+            "text": "sopa",
+            "link": "/zh/spatial-omics/sopa"
+          },
+          {
+            "text": "spacexr",
+            "link": "/zh/spatial-omics/spacexr"
+          },
+          {
+            "text": "spateo-release",
+            "link": "/zh/spatial-omics/spateo-release"
+          },
+          {
+            "text": "spatialdata",
+            "link": "/zh/spatial-omics/spatialdata"
+          },
+          {
+            "text": "squidpy",
+            "link": "/zh/spatial-omics/squidpy"
+          },
+          {
+            "text": "STPath",
+            "link": "/zh/spatial-omics/stpath"
+          },
+          {
+            "text": "Tangram",
+            "link": "/zh/spatial-omics/tangram"
+          }
+        ]
+      }
+    ],
+    "/zh/perturbation/": [
+      {
+        "text": "⚡ 扰动分析",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "CellFlow",
+            "link": "/zh/perturbation/cellflow"
+          },
+          {
+            "text": "cellot",
+            "link": "/zh/perturbation/cellot"
+          },
+          {
+            "text": "cpa",
+            "link": "/zh/perturbation/cpa"
+          },
+          {
+            "text": "GEARS",
+            "link": "/zh/perturbation/gears"
+          },
+          {
+            "text": "linear_perturbation_prediction-Paper",
+            "link": "/zh/perturbation/linear_perturbation_prediction-paper"
+          },
+          {
+            "text": "NatMethods_TooManyCells_analysis",
+            "link": "/zh/perturbation/natmethods_toomanycells_analysis"
+          },
+          {
+            "text": "pertpy",
+            "link": "/zh/perturbation/pertpy"
+          },
+          {
+            "text": "sc-pert",
+            "link": "/zh/perturbation/sc-pert"
+          },
+          {
+            "text": "scgen",
+            "link": "/zh/perturbation/scgen"
+          },
+          {
+            "text": "scPerturb",
+            "link": "/zh/perturbation/scperturb"
+          },
+          {
+            "text": "Squidiff",
+            "link": "/zh/perturbation/squidiff"
+          },
+          {
+            "text": "state",
+            "link": "/zh/perturbation/state"
+          }
+        ]
+      }
+    ],
+    "/zh/guide/": [
+      {
+        "text": "📑 指南",
+        "items": [
+          {
+            "text": "⚙️ 分析模块检索",
+            "link": "/zh/guide/analysis-modules"
+          },
+          {
+            "text": "🎨 可视化方法",
+            "link": "/zh/guide/visualization"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "/en/single-cell-rna-seq/": [
+      {
+        "text": "💻 scRNA-seq",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "admultiregion_analysis",
+            "link": "/en/single-cell-rna-seq/admultiregion_analysis"
+          },
+          {
+            "text": "banovichlab",
+            "link": "/en/single-cell-rna-seq/banovichlab"
+          },
+          {
+            "text": "brainchromatin",
+            "link": "/en/single-cell-rna-seq/brainchromatin"
+          },
+          {
+            "text": "CIMA",
+            "link": "/en/single-cell-rna-seq/cima"
+          },
+          {
+            "text": "covid_balf",
+            "link": "/en/single-cell-rna-seq/covid_balf"
+          },
+          {
+            "text": "Cross-species-PFC-snRNA-seq",
+            "link": "/en/single-cell-rna-seq/cross-species-pfc-snrna-seq"
+          },
+          {
+            "text": "DG_paper_public",
+            "link": "/en/single-cell-rna-seq/dg_paper_public"
+          },
+          {
+            "text": "fda_scRNA-seq",
+            "link": "/en/single-cell-rna-seq/fda_scrna-seq"
+          },
+          {
+            "text": "harmony",
+            "link": "/en/single-cell-rna-seq/harmony"
+          },
+          {
+            "text": "HCA_Heart_ver2",
+            "link": "/en/single-cell-rna-seq/hca_heart_ver2"
+          },
+          {
+            "text": "HCA_skin",
+            "link": "/en/single-cell-rna-seq/hca_skin"
+          },
+          {
+            "text": "HLCA",
+            "link": "/en/single-cell-rna-seq/hlca"
+          },
+          {
+            "text": "ipynb-lamanno2016",
+            "link": "/en/single-cell-rna-seq/ipynb-lamanno2016"
+          },
+          {
+            "text": "neurogenic_astros",
+            "link": "/en/single-cell-rna-seq/neurogenic_astros"
+          },
+          {
+            "text": "organoid_regulomes",
+            "link": "/en/single-cell-rna-seq/organoid_regulomes"
+          },
+          {
+            "text": "PCLS_perturbations",
+            "link": "/en/single-cell-rna-seq/pcls_perturbations"
+          },
+          {
+            "text": "pfc_development",
+            "link": "/en/single-cell-rna-seq/pfc_development"
+          },
+          {
+            "text": "planarian_lineages",
+            "link": "/en/single-cell-rna-seq/planarian_lineages"
+          },
+          {
+            "text": "ProgressiveHematopoiesis",
+            "link": "/en/single-cell-rna-seq/progressivehematopoiesis"
+          },
+          {
+            "text": "scRepertoire",
+            "link": "/en/single-cell-rna-seq/screpertoire"
+          },
+          {
+            "text": "Single-cell-sequencing-of-subpallium",
+            "link": "/en/single-cell-rna-seq/single-cell-sequencing-of-subpallium"
+          },
+          {
+            "text": "Single-cell-transcriptomics-reveals-a-signaling-roadmap-coordinating-endoderm-and-mesoderm-lineage",
+            "link": "/en/single-cell-rna-seq/single-cell-transcriptomics-reveals-a-signaling-roadmap-coordinating-endoderm-and-mesoderm-lineage"
+          },
+          {
+            "text": "snATACutils",
+            "link": "/en/single-cell-rna-seq/snatacutils"
+          },
+          {
+            "text": "ssread",
+            "link": "/en/single-cell-rna-seq/ssread"
+          },
+          {
+            "text": "tabula-muris-senis",
+            "link": "/en/single-cell-rna-seq/tabula-muris-senis"
+          },
+          {
+            "text": "tabula-sapiens",
+            "link": "/en/single-cell-rna-seq/tabula-sapiens"
+          },
+          {
+            "text": "Tumor-Immune-Cell-Atlas",
+            "link": "/en/single-cell-rna-seq/tumor-immune-cell-atlas"
+          },
+          {
+            "text": "visium_heart",
+            "link": "/en/single-cell-rna-seq/visium_heart"
+          }
+        ]
+      }
+    ],
+    "/en/multi-omics/": [
+      {
+        "text": "🧬 Multi-omics",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "awesome-foundation-model-single-cell-papers",
+            "link": "/en/multi-omics/awesome-foundation-model-single-cell-papers"
+          },
+          {
+            "text": "awesome-single-cell-foundation",
+            "link": "/en/multi-omics/awesome-single-cell-foundation"
+          },
+          {
+            "text": "EMOGI",
+            "link": "/en/multi-omics/emogi"
+          },
+          {
+            "text": "EpiAgent",
+            "link": "/en/multi-omics/epiagent"
+          },
+          {
+            "text": "GaussTR",
+            "link": "/en/multi-omics/gausstr"
+          },
+          {
+            "text": "HuMMuS",
+            "link": "/en/multi-omics/hummus"
+          },
+          {
+            "text": "KRONOS",
+            "link": "/en/multi-omics/kronos"
+          },
+          {
+            "text": "midas",
+            "link": "/en/multi-omics/midas"
+          },
+          {
+            "text": "MOFA2",
+            "link": "/en/multi-omics/mofa2"
+          },
+          {
+            "text": "MOVE",
+            "link": "/en/multi-omics/move"
+          },
+          {
+            "text": "MOVICS",
+            "link": "/en/multi-omics/movics"
+          },
+          {
+            "text": "Mowgli",
+            "link": "/en/multi-omics/mowgli"
+          },
+          {
+            "text": "MultiMAP",
+            "link": "/en/multi-omics/multimap"
+          },
+          {
+            "text": "nicheformer",
+            "link": "/en/multi-omics/nicheformer"
+          },
+          {
+            "text": "omicverse",
+            "link": "/en/multi-omics/omicverse"
+          },
+          {
+            "text": "sc-foundation-eval",
+            "link": "/en/multi-omics/sc-foundation-eval"
+          },
+          {
+            "text": "scAI",
+            "link": "/en/multi-omics/scai"
+          },
+          {
+            "text": "scib",
+            "link": "/en/multi-omics/scib"
+          },
+          {
+            "text": "scPRINT",
+            "link": "/en/multi-omics/scprint"
+          },
+          {
+            "text": "SenseNova-SI",
+            "link": "/en/multi-omics/sensenova-si"
+          },
+          {
+            "text": "SpatialGlue",
+            "link": "/en/multi-omics/spatialglue"
+          },
+          {
+            "text": "stack",
+            "link": "/en/multi-omics/stack"
+          },
+          {
+            "text": "UCE",
+            "link": "/en/multi-omics/uce"
+          }
+        ]
+      }
+    ],
+    "/en/spatial-omics/": [
+      {
+        "text": "🗺️ Spatial Omics",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "cell2location",
+            "link": "/en/spatial-omics/cell2location"
+          },
+          {
+            "text": "HEST",
+            "link": "/en/spatial-omics/hest"
+          },
+          {
+            "text": "novae",
+            "link": "/en/spatial-omics/novae"
+          },
+          {
+            "text": "paste",
+            "link": "/en/spatial-omics/paste"
+          },
+          {
+            "text": "sopa",
+            "link": "/en/spatial-omics/sopa"
+          },
+          {
+            "text": "spacexr",
+            "link": "/en/spatial-omics/spacexr"
+          },
+          {
+            "text": "spateo-release",
+            "link": "/en/spatial-omics/spateo-release"
+          },
+          {
+            "text": "spatialdata",
+            "link": "/en/spatial-omics/spatialdata"
+          },
+          {
+            "text": "squidpy",
+            "link": "/en/spatial-omics/squidpy"
+          },
+          {
+            "text": "STPath",
+            "link": "/en/spatial-omics/stpath"
+          },
+          {
+            "text": "Tangram",
+            "link": "/en/spatial-omics/tangram"
+          }
+        ]
+      }
+    ],
+    "/en/perturbation/": [
+      {
+        "text": "⚡ Perturbation",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "CellFlow",
+            "link": "/en/perturbation/cellflow"
+          },
+          {
+            "text": "cellot",
+            "link": "/en/perturbation/cellot"
+          },
+          {
+            "text": "cpa",
+            "link": "/en/perturbation/cpa"
+          },
+          {
+            "text": "GEARS",
+            "link": "/en/perturbation/gears"
+          },
+          {
+            "text": "linear_perturbation_prediction-Paper",
+            "link": "/en/perturbation/linear_perturbation_prediction-paper"
+          },
+          {
+            "text": "NatMethods_TooManyCells_analysis",
+            "link": "/en/perturbation/natmethods_toomanycells_analysis"
+          },
+          {
+            "text": "pertpy",
+            "link": "/en/perturbation/pertpy"
+          },
+          {
+            "text": "sc-pert",
+            "link": "/en/perturbation/sc-pert"
+          },
+          {
+            "text": "scgen",
+            "link": "/en/perturbation/scgen"
+          },
+          {
+            "text": "scPerturb",
+            "link": "/en/perturbation/scperturb"
+          },
+          {
+            "text": "Squidiff",
+            "link": "/en/perturbation/squidiff"
+          },
+          {
+            "text": "state",
+            "link": "/en/perturbation/state"
+          }
+        ]
+      }
+    ],
+    "/en/guide/": [
+      {
+        "text": "📑 Guide",
+        "items": [
+          {
+            "text": "Analysis Modules",
+            "link": "/en/guide/analysis-modules"
+          },
+          {
+            "text": "Visualization",
+            "link": "/en/guide/visualization"
+          }
+        ]
+      }
+    ]
+  }
+}

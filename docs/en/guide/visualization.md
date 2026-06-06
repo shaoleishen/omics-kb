@@ -1,0 +1,110 @@
+<div v-pre>
+
+# 🎨 可视化方法与绘图引擎检索 MOC
+
+本页面根据代码中使用的绘图引擎和技术栈分类静态索引。
+
+## 📊 1. R 语言 ggplot2 自定义绘图生态
+以下仓库使用 R 语言并大量依赖 `ggplot2` 实现高度定制化的图表展示：
+- [admultiregion_analysis](../single-cell-rna-seq/admultiregion_analysis.md) (Single_Cell_RNA_seq)
+- [banovichlab](../single-cell-rna-seq/banovichlab.md) (Single_Cell_RNA_seq)
+- [brainchromatin](../single-cell-rna-seq/brainchromatin.md) (Single_Cell_RNA_seq)
+- [cell2location](../spatial-omics/cell2location.md) (Spatial_Omics)
+- [CIMA](../single-cell-rna-seq/cima.md) (Single_Cell_RNA_seq)
+- [covid_balf](../single-cell-rna-seq/covid_balf.md) (Single_Cell_RNA_seq)
+- [Cross-species-PFC-snRNA-seq](../single-cell-rna-seq/cross-species-pfc-snrna-seq.md) (Single_Cell_RNA_seq)
+- [fda_scRNA-seq](../single-cell-rna-seq/fda_scrna-seq.md) (Single_Cell_RNA_seq)
+- [harmony](../single-cell-rna-seq/harmony.md) (Single_Cell_RNA_seq)
+- [HCA_skin](../single-cell-rna-seq/hca_skin.md) (Single_Cell_RNA_seq)
+- [HLCA](../single-cell-rna-seq/hlca.md) (Single_Cell_RNA_seq)
+- [linear_perturbation_prediction-Paper](../perturbation/linear_perturbation_prediction-paper.md) (Perturbation)
+- [MOFA2](../multi-omics/mofa2.md) (Multi_omics)
+- [MOVICS](../multi-omics/movics.md) (Multi_omics)
+- [NatMethods_TooManyCells_analysis](../perturbation/natmethods_toomanycells_analysis.md) (Perturbation)
+- [neurogenic_astros](../single-cell-rna-seq/neurogenic_astros.md) (Single_Cell_RNA_seq)
+- [omicverse](../multi-omics/omicverse.md) (Multi_omics)
+- [organoid_regulomes](../single-cell-rna-seq/organoid_regulomes.md) (Single_Cell_RNA_seq)
+- [PCLS_perturbations](../single-cell-rna-seq/pcls_perturbations.md) (Single_Cell_RNA_seq)
+- [pfc_development](../single-cell-rna-seq/pfc_development.md) (Single_Cell_RNA_seq)
+- [ProgressiveHematopoiesis](../single-cell-rna-seq/progressivehematopoiesis.md) (Single_Cell_RNA_seq)
+- [scAI](../multi-omics/scai.md) (Multi_omics)
+- [scPerturb](../perturbation/scperturb.md) (Perturbation)
+- [scRepertoire](../single-cell-rna-seq/screpertoire.md) (Single_Cell_RNA_seq)
+- [Single-cell-sequencing-of-subpallium](../single-cell-rna-seq/single-cell-sequencing-of-subpallium.md) (Single_Cell_RNA_seq)
+- [Single-cell-transcriptomics-reveals-a-signaling-roadmap-coordinating-endoderm-and-mesoderm-lineage](../single-cell-rna-seq/single-cell-transcriptomics-reveals-a-signaling-roadmap-coordinating-endoderm-and-mesoderm-lineage.md) (Single_Cell_RNA_seq)
+- [snATACutils](../single-cell-rna-seq/snatacutils.md) (Single_Cell_RNA_seq)
+- [spacexr](../spatial-omics/spacexr.md) (Spatial_Omics)
+- [ssread](../single-cell-rna-seq/ssread.md) (Single_Cell_RNA_seq)
+- [tabula-sapiens](../single-cell-rna-seq/tabula-sapiens.md) (Single_Cell_RNA_seq)
+- [Tumor-Immune-Cell-Atlas](../single-cell-rna-seq/tumor-immune-cell-atlas.md) (Single_Cell_RNA_seq)
+
+## 🐍 2. Python 语言 matplotlib / seaborn 生态
+以下仓库使用 Python 语言并使用 `matplotlib` 和 `seaborn` 进行科学图表绘制：
+- [admultiregion_analysis](../single-cell-rna-seq/admultiregion_analysis.md) (Single_Cell_RNA_seq)
+- [cell2location](../spatial-omics/cell2location.md) (Spatial_Omics)
+- [CellFlow](../perturbation/cellflow.md) (Perturbation)
+- [cellot](../perturbation/cellot.md) (Perturbation)
+- [CIMA](../single-cell-rna-seq/cima.md) (Single_Cell_RNA_seq)
+- [cpa](../perturbation/cpa.md) (Perturbation)
+- [Cross-species-PFC-snRNA-seq](../single-cell-rna-seq/cross-species-pfc-snrna-seq.md) (Single_Cell_RNA_seq)
+- [EMOGI](../multi-omics/emogi.md) (Multi_omics)
+- [EpiAgent](../multi-omics/epiagent.md) (Multi_omics)
+- [GaussTR](../multi-omics/gausstr.md) (Multi_omics)
+- [GEARS](../perturbation/gears.md) (Perturbation)
+- [HCA_Heart_ver2](../single-cell-rna-seq/hca_heart_ver2.md) (Single_Cell_RNA_seq)
+- [HCA_skin](../single-cell-rna-seq/hca_skin.md) (Single_Cell_RNA_seq)
+- [HEST](../spatial-omics/hest.md) (Spatial_Omics)
+- [HuMMuS](../multi-omics/hummus.md) (Multi_omics)
+- [ipynb-lamanno2016](../single-cell-rna-seq/ipynb-lamanno2016.md) (Single_Cell_RNA_seq)
+- [KRONOS](../multi-omics/kronos.md) (Multi_omics)
+- [midas](../multi-omics/midas.md) (Multi_omics)
+- [MOVE](../multi-omics/move.md) (Multi_omics)
+- [Mowgli](../multi-omics/mowgli.md) (Multi_omics)
+- [nicheformer](../multi-omics/nicheformer.md) (Multi_omics)
+- [novae](../spatial-omics/novae.md) (Spatial_Omics)
+- [omicverse](../multi-omics/omicverse.md) (Multi_omics)
+- [organoid_regulomes](../single-cell-rna-seq/organoid_regulomes.md) (Single_Cell_RNA_seq)
+- [paste](../spatial-omics/paste.md) (Spatial_Omics)
+- [PCLS_perturbations](../single-cell-rna-seq/pcls_perturbations.md) (Single_Cell_RNA_seq)
+- [pertpy](../perturbation/pertpy.md) (Perturbation)
+- [pfc_development](../single-cell-rna-seq/pfc_development.md) (Single_Cell_RNA_seq)
+- [planarian_lineages](../single-cell-rna-seq/planarian_lineages.md) (Single_Cell_RNA_seq)
+- [sc-foundation-eval](../multi-omics/sc-foundation-eval.md) (Multi_omics)
+- [sc-pert](../perturbation/sc-pert.md) (Perturbation)
+- [scgen](../perturbation/scgen.md) (Perturbation)
+- [scib](../multi-omics/scib.md) (Multi_omics)
+- [scPerturb](../perturbation/scperturb.md) (Perturbation)
+- [scPRINT](../multi-omics/scprint.md) (Multi_omics)
+- [snATACutils](../single-cell-rna-seq/snatacutils.md) (Single_Cell_RNA_seq)
+- [sopa](../spatial-omics/sopa.md) (Spatial_Omics)
+- [spateo-release](../spatial-omics/spateo-release.md) (Spatial_Omics)
+- [spatialdata](../spatial-omics/spatialdata.md) (Spatial_Omics)
+- [SpatialGlue](../multi-omics/spatialglue.md) (Multi_omics)
+- [Squidiff](../perturbation/squidiff.md) (Perturbation)
+- [squidpy](../spatial-omics/squidpy.md) (Spatial_Omics)
+- [stack](../multi-omics/stack.md) (Multi_omics)
+- [state](../perturbation/state.md) (Perturbation)
+- [STPath](../spatial-omics/stpath.md) (Spatial_Omics)
+- [tabula-muris-senis](../single-cell-rna-seq/tabula-muris-senis.md) (Single_Cell_RNA_seq)
+- [tabula-sapiens](../single-cell-rna-seq/tabula-sapiens.md) (Single_Cell_RNA_seq)
+- [Tangram](../spatial-omics/tangram.md) (Spatial_Omics)
+- [UCE](../multi-omics/uce.md) (Multi_omics)
+
+## 📦 3. 组学分析库内置可视化引擎
+以下仓库主要依赖 `sc.pl.umap`、`SpatialPlot` 等分析套件内置的画图函数：
+- [awesome-foundation-model-single-cell-papers](../multi-omics/awesome-foundation-model-single-cell-papers.md) (Multi_omics)
+- [awesome-single-cell-foundation](../multi-omics/awesome-single-cell-foundation.md) (Multi_omics)
+- [DG_paper_public](../single-cell-rna-seq/dg_paper_public.md) (Single_Cell_RNA_seq)
+- [MultiMAP](../multi-omics/multimap.md) (Multi_omics)
+- [SenseNova-SI](../multi-omics/sensenova-si.md) (Multi_omics)
+- [visium_heart](../single-cell-rna-seq/visium_heart.md) (Single_Cell_RNA_seq)
+
+---
+### 🔍 Obsidian Dataview 可视化引擎检索 (可选)
+```dataview
+table visualizations, language
+from #Python or #R
+sort name asc
+```
+
+</div>
